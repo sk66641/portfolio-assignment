@@ -7,15 +7,28 @@ menuBtn.addEventListener('click', () => {
 });
 
 // Typing Effect
-const text = "Welcome to My Portfolio";
-let index = 0;
+const text = ["Welcome To My Portfolio", "I Am Sanu Kumar", "A Passionate Web Developer"];
+let index, i = 0;
 const typingText = document.querySelector('.typing-text');
 
 (function type() {
-    if (index < text.length) {
-        typingText.textContent += text.charAt(index);
-        index++;
-        setTimeout(type, 100);
+    if (i < text.length) {
+        if (index < text[i].length) {
+            typingText.textContent += text[i].charAt(index);
+            index++;
+            setTimeout(type, 200);
+        } else {
+            setTimeout(() => {
+                typingText.innerText = '';
+                index = 0;
+                i++;
+                type();
+            }, 1000);
+        }
+    }
+    else {
+        i = 0;
+        type();
     }
 })();
 
