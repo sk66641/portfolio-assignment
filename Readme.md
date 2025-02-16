@@ -1,5 +1,5 @@
 # 🌐 Personal Portfolio Website  
-🔗 **Live Demo:** [View Portfolio](https://your-live-link.com)  
+🔗 **Live Demo:** [View Portfolio](https://sk66641.github.io/portfolio-assignment/)  
 
 This is a single-page portfolio website showcasing web technologies, personal details, education, skills, and interactive JavaScript features.  
 
