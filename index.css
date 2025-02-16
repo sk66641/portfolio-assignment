@@ -1,0 +1,14 @@
+/* i have used tailwind css in index.html because css file was becoming too much complicated */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 285px;
+}
+
+.home-background {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
