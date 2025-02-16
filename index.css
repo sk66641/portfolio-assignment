@@ -9,10 +9,107 @@ body {
     min-width: 285px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 .home-background {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.html {
+    width: 90%;
+    background-color: #ff5722;
+}
+
+.css {
+    width: 85%;
+    background-color: #2196F3;
+}
+
+.cpp {
+    width: 80%;
+    background-color: #00599C;
+}
+
+.python {
+    width: 75%;
+    background-color: #306998;
+}
+
+.javascript {
+    width: 80%;
+    background-color: #F7DF1E;
+    color: black;
+}
+
+.tailwind {
+    width: 85%;
+    background-color: #38B2AC;
+}
+
+.react {
+    width: 70%;
+    background-color: #61DBFB;
+    color: black;
+}
+
+.nodejs {
+    width: 75%;
+    background-color: #3C873A;
+}
+
+.express {
+    width: 65%;
+    background-color: #000;
+}
+
+.mongodb {
+    width: 70%;
+    background-color: #4DB33D;
+}
+
+.postman {
+    width: 75%;
+    background-color: #FF6C37;
+}
+
+.git {
+    width: 85%;
+    background-color: #F05032;
+}
+
+.github {
+    width: 80%;
+    background-color: #181717;
+}
+
+.linux {
+    width: 75%;
+    background-color: #FCC624;
+    color: black;
 }
